@@ -6,4 +6,9 @@ body {
 }
 body div {
   border: 1px solid blue;
+  height: 50px;
+}
+body img {
+  width: 200px;
+  height: 200px;
 }

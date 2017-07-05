@@ -2,7 +2,7 @@ import _ from 'lodash'
 import $ from 'jquery'
 import './style.scss'
 import './hi.less'
-import png from './disc-ip6.png'
+import png from './1.png'
 
 
 

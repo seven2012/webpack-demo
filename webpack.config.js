@@ -5,7 +5,7 @@ var OpenBrowserPlugin = require('open-browser-webpack-plugin');
 module.exports = {
     entry: './src/index.js',
     output: {
-        filename: 'bundle.js',
+        filename: 'bundle-[hash].js',
         path: path.resolve(__dirname, 'dist')
     },
     devServer: {
@@ -42,29 +42,4 @@ module.exports = {
         ]
     }
 
-
-
-    //   module: {
-    //     loaders:[
-    //       {
-    //         test: /\.js[x]?$/,
-    //         exclude: /node_modules/,
-    //         loader: 'babel-loader',
-    //         query: {
-    //           presets: ['es2015', 'react']
-    //         }
-    //       },
-    //       {
-    //         test: /\.css$/,
-    //         loader: 'style-loader!css-loader?modules'
-    //       }
-    //     ]
-    //   },
-    //   plugins: [
-    //     new uglifyJsPlugin({
-    //       compress: {
-    //         warnings: false
-    //       }
-    //     })
-    //   ]
 }
