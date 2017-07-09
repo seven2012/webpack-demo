@@ -85,5 +85,5 @@ module.exports = {
 
 }
 ```
-执行 npm run watch ，无报错，用file协议start dist/index.html
-执行 ./node_modules/.bin/webpack-dev-server ，打开http://localhost:9000/，可自动动态更新状态
+- 执行 npm run watch ，无报错，用file协议start dist/index.html
+- 执行 ./node_modules/.bin/webpack-dev-server ，打开http://localhost:9000/，可自动动态更新状态
