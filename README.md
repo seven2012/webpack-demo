@@ -2,11 +2,11 @@
 npm i
 配置写入package.json
 ```
-  {
-  "name": "mvc-demo",//example
+ {
+  "name": "mvc-demo",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",//example
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
@@ -36,6 +36,7 @@ npm i
     "lodash": "^4.17.4"
   }
 }
+
 ```
 配置webpack.config.js
 ```
