@@ -1,3 +1,7 @@
+自动加css前缀cli:
+npm install --global postcss-cli autoprefixer
+postcss *.css --use autoprefixer -d build/
+
 配置完整的webpack:
 npm i
 配置写入package.json
